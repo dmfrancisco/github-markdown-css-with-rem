@@ -1,0 +1,30 @@
+{
+  "input": "./src/github-markdown.css",
+  "output": "./github-markdown.css",
+  "use": [
+    "postcss-import",
+    "postcss-pxtorem"
+  ],
+  "postcss-pxtorem": {
+    "root_value": 17,
+    "prop_white_list": [
+      "font",
+      "font-size",
+      "line-height",
+      "letter-spacing",
+      "margin",
+      "margin-top",
+      "margin-bottom",
+      "margin-left",
+      "margin-right",
+      "padding",
+      "padding-top",
+      "padding-bottom",
+      "padding-left",
+      "padding-right",
+      "border-radius",
+      "border-left",
+      "height"
+    ]
+  }
+}
